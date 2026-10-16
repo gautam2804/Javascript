@@ -28,10 +28,6 @@
 // Data types 
 //premitive --> int  string float boolean bigint double
 //reference 
-let firstname="Gautam"
-let lastname = "Thorve"
-// console.log("my name is " + firstname + " " + lastname)
-console.log(`my name is ${firstname} ${lastname}`);
 
 
 
