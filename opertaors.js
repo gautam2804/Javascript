@@ -20,10 +20,33 @@
 // console.log(a/=2);
 
 
-// && ||
-a=10 
-b=30
-console.log(a>=10 || b<30 );
+// // && ||
+// a=10 
+// b=30
+// console.log(a>=10 || b<30 );
+
+let username="admin"
+let password="Admin123"
+// if(username =="admin" && password=="Admi123"){
+//     console.log("Login Success");
+    
+// }else{
+//     console.log("Wrong Username or Password");
+    
+// }
+// let msg=(username =="admin" && password=="Admi123") ? "Login Success" : "Wrong Username or Password"
+// console.log(msg);
+
+
+let a=prompt("Enter the value")
+let count=a.length
+let balncechar=150-count
+let msg=`you enterd ${count} left characte ${balncechar}`
+alert(msg)
+
+
+
+
 
 
 
