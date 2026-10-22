@@ -25,8 +25,8 @@
 // b=30
 // console.log(a>=10 || b<30 );
 
-let username="admin"
-let password="Admin123"
+// let username="admin"
+// let password="Admin123"
 // if(username =="admin" && password=="Admi123"){
 //     console.log("Login Success");
     
@@ -38,11 +38,18 @@ let password="Admin123"
 // console.log(msg);
 
 
-let a=prompt("Enter the value")
-let count=a.length
-let balncechar=150-count
-let msg=`you enterd ${count} left characte ${balncechar}`
-alert(msg)
+// let a=prompt("Enter the value")
+// let count=a.length
+// let balncechar=150-count
+// let msg=`you enterd ${count} left character ${balncechar}`
+// alert(msg)
+
+
+//  ?:
+let a=25;
+let result = (a>20) ? "Greater" : "Smaller"
+console.log(result);
+
 
 
 
