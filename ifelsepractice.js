@@ -21,33 +21,19 @@ let  toppings=prompt("Do ypu want extra Toppings? y or n")
 let price=0;
 if(psize === "R"){
     price=price+100;
-    if(cheese == "y"){
-        price=price+50;
-    }
-    if(toppings == "y"){
-        price=price+70;
-    }
-   
 }
 else if(psize==="M"){
     price=price+200;
-     if(cheese == "y"){
-        price=price+50;
-    }
-      if(toppings == "y"){
-        price=price+70;
-    }
 }
 else if(psize==="L"){
     price=price+300;
-     if(cheese == "y"){
+}
+if(cheese === "y"){
         price=price+50;
     }
-      if(toppings == "y"){
+if(toppings === "y"){
         price=price+70;
     }
-}
-
 alert(price);
 
 
